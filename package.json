@@ -1,0 +1,20 @@
+{
+  "name": "webdriver-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js",
+    "selenium": "webdriver-manager update && webdriver-manager start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webdriverio": "^4.12.0"
+  },
+  "devDependencies": {
+    "wdio-cucumber-framework": "^2.0.0",
+    "wdio-spec-reporter": "^0.1.4",
+    "webdriver-manager": "^12.0.6"
+  }
+}
